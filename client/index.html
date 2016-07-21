@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <title>Doug Loves Movies</title>
+  <link rel="stylesheet" href='./css/styles.css'>
+</head>
+<body>
+  <div class="header">
+    <button class="js-menu-show header__menu-toggle material-icons">menu</button>
+    <ul>
+      <li><h1>Doug Loves Movies</h1></li>
+    </ul>
+  </div>
+
+  <aside class="js-side-nav side-nav">
+    <nav class="js-side-nav-container side-nav__container">
+      <button class="js-menu-hide side-nav__hide material-icons">close</button>
+      <header class="side-nav__header">
+        Doug Loves Movies
+      </header>
+      <ul class="side-nav__content">
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+      </ul>
+    </nav>
+  </aside>
+  <section class='card'>
+    <h2>Last Man Stanton</h2>
+    <form id='newPlayer'>
+      <input type='text' name='name' placeholder='Name' />
+      <input type='submit' value='Add Player' />
+    </form>
+    <h5>Players</h5>
+    <ul id='players'></ul>
+    <button id='startGame'>Start</button>
+  </section>
+
+  <section>
+    <ul id='game'>
+    </ul>
+  </section>
+
+  <script src='./js/index.js'></script>
+  <script src='./js/side-nav.js'></script>
+</body>
+</html>
