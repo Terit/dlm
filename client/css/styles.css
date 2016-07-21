@@ -196,6 +196,14 @@ input[type='text']:after {
   flex: 5;
 }
 
+.correct-answer {
+  color: green;
+}
+
+.incorrect-answer {
+  color: red;
+}
+
 .avatar {
   flex: 1;
   width: 50px;
